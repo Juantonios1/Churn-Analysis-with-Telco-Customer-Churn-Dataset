@@ -1,7 +1,9 @@
 # Churn Analysis with Telco Customer Churn Dataset
 Predict behavior to retain customers. The data set includes information about: Customers who left within the last month, Services that each customer has signed up for, Customer account information, and Demographic info about customers
 
-![Churn](Image/BLOG_Absent.jpg)
+![Churn](churn.jpeg)
+
+For full process, please visit my portofolio on <a href="https://github.com/Juantonios1/Churn-Analysis-with-Telco-Customer-Churn-Dataset/blob/main/Churn%20Analysis%20with%20Telco%20Customer%20Churn%20Dataset%20Final.ipynb">Churn Analysis</a>.  
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
