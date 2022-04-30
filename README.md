@@ -1,7 +1,8 @@
 # Churn Analysis with Telco Customer Churn Dataset
-Predict behavior to retain customers. The data set includes information about: Customers who left within the last month, Services that each customer has signed up for, Customer account information, and Demographic info about customers
 
-![Churn](churn.jpeg)
+In this project, i want to share how to save a lot of money from customer churn. To solve that problem i use data analytics to describe the pattern using Tableau and predict which customer will churn and take action using classification method (supervised learning).
+
+![Churn](Image/churn.jpeg)
 
 For full process, please visit my portofolio on <a href="https://github.com/Juantonios1/Churn-Analysis-with-Telco-Customer-Churn-Dataset/blob/main/Churn%20Analysis%20with%20Telco%20Customer%20Churn%20Dataset%20Final.ipynb">Churn Analysis</a>.  
 
@@ -29,16 +30,18 @@ For full process, please visit my portofolio on <a href="https://github.com/Juan
 
 ## Business Background
 **Context :**  
-The company is one of the big provider of telecommunication services and have a lot of customer. The company have services include: phone service, TV streaming, internet and internet security and make profit from customer who paid their services monthly. Churn is a measurement of the percentage of accounts that cancel or choose not to renew their subscriptions. A high churn rate can negatively impact Monthly Recurring Revenue (MRR) and can also indicate dissatisfaction with a product or service. The source of this dataset is from <a href="https://www.kaggle.com/blastchar/telco-customer-churn">Kaggle</a>.  
+The phenomenon of stopping customers from using a service or service from a company is called churn (customer attrition). Churn is influenced by customer statisfaction and the churn rate is inversely correlated to the level of customer statisfaction which in general if the company can maintain customer statisfaction at a high level then the churn rate will be at a low level. However, nowadays, customers have started to think critically, difficult to be satisfied, less forgiving, and easy to switch to competitors. Coupled with the rapid growth of new competitors, keeping loyal customers is a challenge in itself.The source of this dataset is from <a href="https://www.kaggle.com/blastchar/telco-customer-churn">Kaggle</a>.  
 
 **Problem Statement :**  
-The company wants to know how much loss is caused by churn and want to prevent customer churn but we don't know which customer will leaving and we dont know why. If we know which customer will churn, we can give a voucher to keep customer or we will allocate the money to improve the services who make customer churns. the company wants to know how much loss is caused by churn.
+Churn has always been a big problem for every service or service provider company because in general, churn customers are dissatisfied with the services or products provided and tend to switch to competitors. By knowing which customers will churn, the company can calculate the churn rate according to business needs and make action to prevent it.
 
 **Goals :**  
 To find how much loss caused by churn and predict which customer will churn and find out the reason so company can do action which give the company profit.
 
 **Metric Evaluation :**    
 Determine the suitable metric to rate the performance from the model
+
+![Churn](Image/Matrix2.png)
 
 ## Data Understanding
 
@@ -102,7 +105,7 @@ At this stage will be done making and optimizing the machine learning model, as 
 At this stage there will be an explanation in the decision making of the machine learning model, in the following ways:
 * SHAP 
 
-## Conclusion 
+## Conclusion and Recommendation
 We conclude our result and give recommendation based on it
 * Summary Model
 * Business Insight
