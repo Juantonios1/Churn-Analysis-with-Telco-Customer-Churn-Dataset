@@ -41,7 +41,7 @@ To find how much loss caused by churn and predict which customer will churn and 
 **Metric Evaluation :**    
 Determine the suitable metric to rate the performance from the model
 
-![Churn](Image/Matrix2.png)
+![Metrics](Image/Matrix 2.png)
 
 ## Data Understanding
 
@@ -75,14 +75,37 @@ Determine the suitable metric to rate the performance from the model
 At this stage, a brief analysis of the data will be carried out, as follows:
 * Distribution Data Numerical
 * Data Cardinalities
-* Data Correlation
 * Missing Values
-* Data Imbalance
 * Identify Outliers
 * Identify Duplicates
+* Data Correlation Numerical
+
+![correlation](Image/correlation.png)
+* Data Correlation Categorical
+
+![iv](Image/iv.png)
+* Data Imbalance
+
+![Metrics](Image/imabalance.png)
 
 ## Data Analytics
 At this stage, another information analysis will be carried out, as follows:
+* Product Services Analysis
+
+![db1](Image/Dashboard1.png)
+* Customer Transaction
+
+![db2](Image/Dashboard2.png)
+
+* Customer Information
+
+![db3](Image/Dashboard3.png)
+* Personal Information
+
+![db4](Image/Dashboard4.png)
+* Service Detail
+
+![db5](Image/Dashboard5.png)
 * Loss caused by Churn
 * Data Proportion based on Target
 * Independent Test with Chi-squared
@@ -90,7 +113,6 @@ At this stage, another information analysis will be carried out, as follows:
 
 ## Data Preprocessing
 At this stage, data preparation and processing will be carried out before being used as a data model, as follows:
-* Missing Value
 * Transformer
 * Splitting Data
 
@@ -109,7 +131,12 @@ At this stage there will be an explanation in the decision making of the machine
 We conclude our result and give recommendation based on it
 * Summary Model
 * Business Insight
-* Conclusion
+
+This model has performance 73%, its mean our model can predict (other factors are ignored) 1308 customers from 1869 customer which churn, and if our action is suitable, we can prevent 97367.52 dollar per month and with average tenure we will prevent company loss 3115760.64 dollar. 
+* Recommendation
+  * Make a bundle for all product with interesting cost.
+  * Company can give discount for customer who predict will churn.
+  * Company can give special offer to customer with short period contract to prevent customer churn.
 
 ## Contributors:
 Juan Antonio Suwardi - antonio.juan.suwardi@gmail.com  
