@@ -4,7 +4,7 @@ In this project, i want to share how to save a lot of money from customer churn.
 
 ![Churn](Image/churn.jpeg)
 
-For full process, please visit my portofolio on <a href="https://github.com/Juantonios1/Churn-Analysis-with-Telco-Customer-Churn-Dataset/blob/main/Churn%20Analysis%20with%20Telco%20Customer%20Churn%20Dataset%20Final.ipynb">Churn Analysis</a>.  
+For full process, please visit my portofolio on please visit <a href="https://github.com/Juantonios1/Churn-Analysis-with-Telco-Customer-Churn-Dataset/blob/main/Churn%20Analysis%20Ipynb/Churn%20Analysis%20with%20Telco%20Customer%20Churn%20Dataset%20Final.ipynb">Churn Analysis</a>.
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -41,7 +41,7 @@ To find how much loss caused by churn and predict which customer will churn and 
 **Metric Evaluation :**    
 Determine the suitable metric to rate the performance from the model
 
-![Metrics](Image/Matrix 2.png)
+![Metrics](Image/Matrix2.png)
 
 ## Data Understanding
 
@@ -110,6 +110,8 @@ At this stage, another information analysis will be carried out, as follows:
 * Data Proportion based on Target
 * Independent Test with Chi-squared
 * Senior Citizen Feature
+  
+You can also see full dashboard of analysis at <a href="https://public.tableau.com/app/profile/juan1691/viz/ChurnAnalysis_16509874494110/ChurnAnalysis?publish=yes"> Analysis Tableau</a>.  
 
 ## Data Preprocessing
 At this stage, data preparation and processing will be carried out before being used as a data model, as follows:
@@ -118,18 +120,22 @@ At this stage, data preparation and processing will be carried out before being 
 
 ## Model Selection
 At this stage will be done making and optimizing the machine learning model, as follows:
-* Model Benchmark
+* Model Benchmark (Logistic Regression, KNN Classifier, Decision Tree Classifier, Random Forest Classifier, XGBoost Classifier, and Catboost Classifier)
 * Feature Selection
-* Imbalance Method
-* Hyperparameter Tuning
+* Imbalance Method (Class Weighted, Undersampling, Oversampling)
+* Hyperparameter Tuning (Grid Search)
 
 ## Explainable and Interpretable Machine Learning
 At this stage there will be an explanation in the decision making of the machine learning model, in the following ways:
 * SHAP 
 
+![SHAP](Image/shap.png)
+
 ## Conclusion and Recommendation
 We conclude our result and give recommendation based on it
 * Summary Model
+
+![Summary](Image/summary.png)
 * Business Insight
 
 This model has performance 73%, its mean our model can predict (other factors are ignored) 1308 customers from 1869 customer which churn, and if our action is suitable, we can prevent 97367.52 dollar per month and with average tenure we will prevent company loss 3115760.64 dollar. 
@@ -137,6 +143,8 @@ This model has performance 73%, its mean our model can predict (other factors ar
   * Make a bundle for all product with interesting cost.
   * Company can give discount for customer who predict will churn.
   * Company can give special offer to customer with short period contract to prevent customer churn.
+
+For full report of this project, please visit <a href="https://github.com/Juantonios1/Churn-Analysis-with-Telco-Customer-Churn-Dataset/blob/main/Churn%20Analysis%20Ipynb/Churn%20Analysis%20with%20Telco%20Customer%20Churn%20Dataset%20Final.ipynb">Churn Analysis</a>.
 
 ## Contributors:
 Juan Antonio Suwardi - antonio.juan.suwardi@gmail.com  
